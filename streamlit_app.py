@@ -18,9 +18,6 @@ if menu == '홈':
     st.write('[우리 문서로 이동하세요](https://docs.streamlit.io).')
     st.write('[커뮤니티 포럼](https://discuss.streamlit.io)에서 질문해보세요.')
 
-    st.subheader('더 복잡한 데모 보기')
-    st.write('신경망을 사용하여 [Udacity 자율주행차 이미지 데이터셋 분석](https://github.com/udacity/self-driving-car)하기')
-    st.write('높은 신뢰도 데이터셋 [탐색](https://github.com/streamlit/demo-self-driving)하기')
 elif menu == '애니메이션 데모':
     st.title('애니메이션 데모')
     st.write('여기에 애니메이션 데모 내용이 들어갑니다.')
