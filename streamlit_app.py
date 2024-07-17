@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 사이드바 메뉴
-st.sidebar.title('안녕하세요')
+st.sidebar.title('안녕하세요 - 수정')
 menu = st.sidebar.radio(
     '위에서 데모를 선택하세요.',
     ['홈', '애니메이션 데모', '콜론 데모', '매핑 데모', '데이터 프레임 데모']
