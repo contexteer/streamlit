@@ -3,7 +3,7 @@ import pandas as pd
 import math
 
 # 데이터 로드
-file_path = '/Users/develop/testbB/data_test.csv'
+file_path = 'data_test.csv'  # 상대 경로로 수정
 df = pd.read_csv(file_path)
 
 # 사이드바 제목 및 메뉴
