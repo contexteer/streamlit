@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import math
+import os
+
+api_key = os.getenv('API_KEY')
+password = os.getenv('PASSWORD')
 
 # 데이터 로드
 file_path = 'data_test.csv'  # 상대 경로로 수정
@@ -13,6 +17,9 @@ menu = st.sidebar.radio("메뉴 선택", ['지원 학과 검색', '메뉴 2', '�
 if menu == '지원 학과 검색':
     # 지원 학과 입력
     st.title('지원 학과 검색')
+    st.title(api_key)
+    st.title(password)
+    
     major_input = st.text_input('지원 학과를 입력하세요:')
 
     # 데이터 필터링
